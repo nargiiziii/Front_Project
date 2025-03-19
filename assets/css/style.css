@@ -342,7 +342,7 @@
 .shop .text-over button {
   padding: 9px 16px;
   margin-top: 9px;
-  background-color: #FFCE25;
+  background-color: #ffce25;
   border-radius: 50px;
   border: none;
   font-size: 1.6rem;
@@ -434,5 +434,159 @@
   .shop h2 {
     font-size: 3rem;
     padding-bottom: 4rem;
+  }
+}
+#latest {
+  min-height: 154rem;
+}
+
+.latest .latest-head {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.478);
+}
+
+.latest .latest-head h2 {
+  font-size: 5rem;
+  font-family: play-fair;
+  font-weight: bold;
+}
+
+.latest .latest-head .list {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.6rem;
+  font-family: poppins;
+  color: gray;
+}
+
+.latest .latest-head .list div:nth-child(1) {
+  color: rgb(232, 17, 17);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15rem 0;
+  gap: 3rem;
+  position: relative;
+}
+
+.cards .card {
+  width: 39rem;
+  height: 52rem;
+  border: none;
+}
+
+.cards .card img {
+  width: 36rem;
+  height: 39rem;
+  align-self: center;
+}
+
+.cards .card-info {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards .card .stars {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.cards .card .stars .yellow {
+  color: gold;
+}
+
+.cards .card p {
+  font-family: play-fair;
+  font-size: 1.6rem;
+}
+
+.cards .card .price {
+  font-family: poppins;
+  font-size: 1.8rem;
+}
+
+.cards .card .price span {
+  color: #ff003c;
+  text-decoration: line-through;
+}
+
+.cards .card .new {
+  font-size: 1.5rem;
+  background-color: #ff003c;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+}
+
+@media only screen and (min-width: 1196px) and (max-width: 1406px) {
+  .cards {
+    gap: 0rem;
+  }
+  .cards .card {
+    width: 37rem;
+    height: 50rem;
+    border: none;
+  }
+  .cards .card img {
+    width: 34rem;
+    height: 37rem;
+    align-self: center;
+  }
+}
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+  #latest {
+    min-height: 129rem;
+  }
+  .cards {
+    gap: 0rem;
+    padding: 10rem 0;
+  }
+  .cards .card {
+    width: 30rem;
+    height: 47rem;
+  }
+  .cards .card img {
+    width: 27rem;
+    height: 29rem;
+  }
+}
+@media only screen and (min-width: 776px) and (max-width: 996px) {
+  .cards {
+    gap: 0rem;
+    padding: 5rem 0;
+  }
+  .cards .card {
+    width: 30rem;
+    height: 47rem;
+  }
+  .cards .card img {
+    width: 25rem;
+    height: 27rem;
+  }
+}
+@media only screen and (max-width: 776px) {
+  .latest .latest-head {
+    display: block;
+  }
+  .latest .latest-head h2 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+  .cards {
+    gap: 0rem;
+    padding: 5rem 0;
   }
 }

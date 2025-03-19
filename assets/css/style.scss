@@ -312,158 +312,328 @@
 
 #shop {
   min-height: 80rem;
-  padding: 18rem  4.5rem 15rem;
+  padding: 18rem 4.5rem 15rem;
 }
 
 .shop h2 {
-    font-size: 5rem;
-    font-family: play-fair;
-    font-weight: bold;
-    padding-bottom: 7rem;
-    text-align: center;
+  font-size: 5rem;
+  font-family: play-fair;
+  font-weight: bold;
+  padding-bottom: 7rem;
+  text-align: center;
 }
 
 .shop .images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
-.shop .images img{
-width: 44rem;
-height: 27rem;
+.shop .images img {
+  width: 44rem;
+  height: 27rem;
 }
 
 .shop .image {
-position: relative;
+  position: relative;
 }
 
 .shop .text-over {
-    position: absolute;
-    top: 6rem;
-    right: 3rem;
+  position: absolute;
+  top: 6rem;
+  right: 3rem;
 }
 
 .shop .text-over h3 {
-font-family: play-fair;
-font-size: 3rem;
+  font-family: play-fair;
+  font-size: 3rem;
 }
 
 .shop .text-over button {
-    padding: 9px 16px;
-    margin-top: 9px;
-    background-color: #FFCE25;
-    border-radius: 50px;
-    border: none;
-    font-size: 1.6rem;
-    font-family: poppins;
-    color: rgb(0, 0, 0);
-    position: relative;
-    left: 10px;
+  padding: 9px 16px;
+  margin-top: 9px;
+  background-color: #ffce25;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.6rem;
+  font-family: poppins;
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 10px;
 }
 
 .shop .text-over p {
-        font-family: yellowtail;
-        font-size: 2rem;
-        color: #2577fd;
-        position: relative;
-        bottom: 13px;
+  font-family: yellowtail;
+  font-size: 2rem;
+  color: #2577fd;
+  position: relative;
+  bottom: 13px;
 }
 
-.shop .images .text-over-second{
-    position: absolute;
-    top: 6rem;
-    right: 3rem;
+.shop .images .text-over-second {
+  position: absolute;
+  top: 6rem;
+  right: 3rem;
 }
 
 .shop .text-over-second .blue {
-    font-family: yellowtail;
-    font-size: 2.5rem;
-    color: #2577fd;
-    position: relative;
-    top: 10px;
-left: 40px;
+  font-family: yellowtail;
+  font-size: 2.5rem;
+  color: #2577fd;
+  position: relative;
+  top: 10px;
+  left: 40px;
 }
 
 .shop .text-over-second h3 {
-    font-family: play-fair;
-    font-size: 3rem;
-    position: relative;
+  font-family: play-fair;
+  font-size: 3rem;
+  position: relative;
 }
 
 .shop .text-over-second p {
-    font-size: 1.6rem;
-    position: relative;
-    left: 30px;
+  font-size: 1.6rem;
+  position: relative;
+  left: 30px;
 }
 
 @media only screen and (min-width: 776px) and (max-width: 1196px) {
+  #shop {
+    min-height: 156rem;
+  }
 
-    #shop {
-        min-height: 156rem;
-    }
+  .shop .images img {
+    width: 64rem;
+    height: 39rem;
+  }
 
-    .shop .images img{
-        width: 64rem;
-        height: 39rem;
-        }
+  .shop h2 {
+    font-size: 3rem;
+  }
 
-        .shop h2 {
-            font-size: 3rem;
-        }
-        
-.shop .text-over {
+  .shop .text-over {
     position: absolute;
     top: 13rem;
     right: 7rem;
-}
+  }
 
-.shop .text-over h3 {
-font-size: 4rem;
-}
+  .shop .text-over h3 {
+    font-size: 4rem;
+  }
 
+  .shop .text-over p {
+    font-size: 3rem;
+  }
 
-.shop .text-over p {
-        font-size: 3rem;
-}
-
-.shop .images .text-over-second{
+  .shop .images .text-over-second {
     position: absolute;
     top: 13rem;
     right: 7rem;
-}
+  }
 
-.shop .text-over-second .blue {
+  .shop .text-over-second .blue {
     font-size: 3rem;
     top: 10px;
-left: 60px;
-}
-
-.shop .text-over-second h3 {
-    font-size: 4rem;
-}
-
-.shop .text-over-second p {
     left: 60px;
+  }
+
+  .shop .text-over-second h3 {
+    font-size: 4rem;
+  }
+
+  .shop .text-over-second p {
+    left: 60px;
+  }
 }
+
+@media only screen and (max-width: 776px) {
+  #shop {
+    min-height: 110rem;
+    padding: 8rem 4.5rem 8rem;
+  }
+
+  .shop h2 {
+    font-size: 3rem;
+    padding-bottom: 4rem;
+  }
+}
+
+// Latest Products
+
+#latest {
+  min-height: 154rem;
+}
+
+.latest .latest-head {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.478);
+}
+
+.latest .latest-head h2 {
+  font-size: 5rem;
+  font-family: play-fair;
+  font-weight: bold;
+}
+
+.latest .latest-head .list {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.6rem;
+  font-family: poppins;
+  color: gray;
+}
+
+.latest .latest-head .list div:nth-child(1) {
+  color: rgb(232, 17, 17);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15rem 0;
+  gap: 3rem;
+  position: relative;
+}
+
+.cards .card {
+  width: 39rem;
+  height: 52rem;
+  border: none;
+}
+
+.cards .card img {
+  width: 36rem;
+  height: 39rem;
+  align-self: center;
+}
+
+.cards .card-info {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards .card .stars {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.cards .card .stars .yellow {
+  color: gold;
+}
+
+.cards .card p {
+  font-family: play-fair;
+  font-size: 1.6rem;
+}
+
+.cards .card .price {
+  font-family: poppins;
+  font-size: 1.8rem;
+}
+
+.cards .card .price span {
+  color: #ff003c;
+  text-decoration: line-through;
+}
+
+.cards .card .new {
+  font-size: 1.5rem;
+  background-color: #ff003c;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+}
+
+@media only screen and (min-width: 1196px) and (max-width: 1406px) {
+ 
+    .cards {
+        gap: 0rem;
+    }
+ 
+    .cards .card {
+        width: 37rem;
+        height: 50rem;
+        border: none;
+      }
+      
+      .cards .card img {
+        width: 34rem;
+        height: 37rem;
+        align-self: center;
+      }
+      
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+
+    #latest {
+        min-height: 129rem;
+      }
+
+    .cards {
+        gap: 0rem;
+        padding: 10rem 0;
+    }
+
+    .cards .card {
+        width: 30rem;
+        height: 47rem;
+      }
+      
+      .cards .card img {
+        width: 27rem;
+        height: 29rem;
+      }
+    
+}
+
+
+@media only screen and (min-width: 776px) and (max-width:996px) {
+      
+    .cards {
+        gap: 0rem;
+        padding: 5rem 0;
+    }
+
+    .cards .card {
+        width: 30rem;
+        height: 47rem;
+      }
+
+      .cards .card img {
+        width: 25rem;
+        height: 27rem;
+      }
+
 }
 
 @media only screen and (max-width: 776px) {
 
-    #shop {
-        min-height: 110rem;
-        padding: 8rem  4.5rem 8rem;
+    .latest .latest-head {
+        display: block;
+       }
+      
+      .latest .latest-head h2 {
+        font-size: 3rem;
+        padding-bottom: 3rem;
       }
 
-    .shop h2 {
-        font-size: 3rem;
-        padding-bottom: 4rem;
+    .cards {
+        gap: 0rem;
+        padding: 5rem 0;
     }
+
 }
-
-
-
-// Latest Products
-
