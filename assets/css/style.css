@@ -221,7 +221,7 @@
 }
 #main-area {
   min-height: 76rem;
-  background-color: #C8EBFF;
+  background-color: #c8ebff;
 }
 
 .main-area {
@@ -266,7 +266,7 @@
 @media only screen and (min-width: 776px) and (max-width: 1196px) {
   #main-area {
     min-height: 50rem;
-    background-color: #C8EBFF;
+    background-color: #c8ebff;
   }
   .main-area .left-img img {
     width: 48rem;
@@ -285,7 +285,7 @@
   }
   #main-area {
     min-height: 35rem;
-    background-color: #C8EBFF;
+    background-color: #c8ebff;
   }
   .main-area .left-img img {
     width: 48rem;
@@ -297,4 +297,65 @@
   .main-area h1 {
     font-size: 4rem;
   }
+}
+#shop {
+  min-height: 80rem;
+  padding: 18rem 4.5rem 15rem;
+}
+
+.shop h2 {
+  font-size: 5rem;
+  font-family: play-fair;
+  font-weight: bold;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.shop .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.shop .images img {
+  width: 44rem;
+  height: 27rem;
+}
+
+.shop .first {
+  position: relative;
+}
+
+.shop .text-over {
+  background-color: #00b1ff;
+  position: absolute;
+  top: 6rem;
+  right: 3rem;
+}
+
+.shop .text-over h3 {
+  font-family: play-fair;
+  font-size: 3rem;
+}
+
+.shop .text-over button {
+  padding: 9px 16px;
+  margin-top: 9px;
+  background-color: #FFCE25;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.6rem;
+  font-family: poppins;
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 10px;
+}
+
+.shop .text-over p {
+  font-family: yellowtail;
+  font-size: 2rem;
+  color: #2577fd;
+  position: relative;
+  bottom: 13px;
 }
