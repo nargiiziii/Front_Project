@@ -316,6 +316,7 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .shop .images img {
@@ -323,12 +324,11 @@
   height: 27rem;
 }
 
-.shop .first {
+.shop .image {
   position: relative;
 }
 
 .shop .text-over {
-  background-color: #00b1ff;
   position: absolute;
   top: 6rem;
   right: 3rem;
@@ -358,4 +358,81 @@
   color: #2577fd;
   position: relative;
   bottom: 13px;
+}
+
+.shop .images .text-over-second {
+  position: absolute;
+  top: 6rem;
+  right: 3rem;
+}
+
+.shop .text-over-second .blue {
+  font-family: yellowtail;
+  font-size: 2.5rem;
+  color: #2577fd;
+  position: relative;
+  top: 10px;
+  left: 40px;
+}
+
+.shop .text-over-second h3 {
+  font-family: play-fair;
+  font-size: 3rem;
+  position: relative;
+}
+
+.shop .text-over-second p {
+  font-size: 1.6rem;
+  position: relative;
+  left: 30px;
+}
+
+@media only screen and (min-width: 776px) and (max-width: 1196px) {
+  #shop {
+    min-height: 156rem;
+  }
+  .shop .images img {
+    width: 64rem;
+    height: 39rem;
+  }
+  .shop h2 {
+    font-size: 3rem;
+  }
+  .shop .text-over {
+    position: absolute;
+    top: 13rem;
+    right: 7rem;
+  }
+  .shop .text-over h3 {
+    font-size: 4rem;
+  }
+  .shop .text-over p {
+    font-size: 3rem;
+  }
+  .shop .images .text-over-second {
+    position: absolute;
+    top: 13rem;
+    right: 7rem;
+  }
+  .shop .text-over-second .blue {
+    font-size: 3rem;
+    top: 10px;
+    left: 60px;
+  }
+  .shop .text-over-second h3 {
+    font-size: 4rem;
+  }
+  .shop .text-over-second p {
+    left: 60px;
+  }
+}
+@media only screen and (max-width: 776px) {
+  #shop {
+    min-height: 110rem;
+    padding: 8rem 4.5rem 8rem;
+  }
+  .shop h2 {
+    font-size: 3rem;
+    padding-bottom: 4rem;
+  }
 }
