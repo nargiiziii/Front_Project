@@ -6,6 +6,7 @@
   align-items: center;
   gap: 10rem;
   position: sticky;
+  background-color: blanchedalmond;
   font-family: poppins;
 }
 
@@ -217,4 +218,99 @@
       font-weight: bold;
     }
   }
+}
+
+
+
+#main-area {
+    min-height: 76rem;
+    background-color: #C8EBFF;
+}
+
+
+.main-area {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 0 6rem;
+}
+
+
+.main-area .blue {
+font-family: yellowtail;
+font-size: 4rem;
+color:#2577fd;
+}
+
+.main-area h1 {
+    font-family: play-fair;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.main-area .best {
+font-family: play-fair;
+font-style: italic;
+font-size: 2rem;
+font-weight: 200;
+}
+
+.main-area .right-text button {
+    padding: 14px 29px;
+    background-color: #2577fd;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.8rem;
+    font-family: poppins;
+    margin-top: 2rem;
+    color: white;
+}
+
+@media only screen and (min-width: 776px) and (max-width: 1196px) {
+
+    #main-area {
+        min-height: 50rem;
+        background-color: #C8EBFF;
+    }
+    
+    .main-area .left-img img {
+        width: 48rem;
+        height: 50rem;
+    }
+
+    .main-area .right-text {
+        width: 30rem;
+    }
+
+    .main-area h1 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 776px) {
+
+    .main-area .left-img img {
+        display: none;
+    }
+
+    #main-area {
+        min-height: 35rem;
+        background-color: #C8EBFF;
+    }
+    
+    .main-area .left-img img {
+        width: 48rem;
+        height: 50rem;
+    }
+
+    .main-area .right-text {
+        width: 30rem;
+    }
+
+    .main-area h1 {
+        font-size: 4rem;
+    }
+
 }
