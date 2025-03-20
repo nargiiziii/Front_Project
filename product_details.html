@@ -1,19 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Product Details</title>
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/nav-foot.css">
-        <link rel="stylesheet" href="./assets/css/product_details.scss">
-        <!-- font awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    </head>
-<body>
-    
 
-    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/nav-foot.css">
+    <link rel="stylesheet" href="./assets/css/product_details.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <section id="navbar">
+        <div class="nav-area">
+            <div class="logo">
+                <img src="./assets/images/logo.webp" alt="" />
+            </div>
+
+            <div class="burger">
+                <p>MENU</p> <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+
+            <div class="responsive">
+                <ul class="nav-list">
+                    <li>Home</li>
+                    <li>Category</li>
+                    <li class="hot">
+                        <div class="hot-text">HOT</div>
+                        Latest
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="">Product List</a></li>
+                                <li><a href="">Product Detail</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>Blog
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Blog Detail</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>Pages
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="">Login</a></li>
+                                <li><a href="">Card</a></li>
+                                <li><a href="">Element</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Confirmation</a></li>
+                                <li><a href="">Shopping Cart</a></li>
+                                <li><a href="">Product Checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>Contact</li>
+                </ul>
+
+                <div class="nav-right">
+                    <div class="search">
+                        <input type="search" placeholder="Search products" name="" id="" />
+                        <div class="search-icon"> <i class="fa-solid fa-magnifying-glass fa-lg"></i></div>
+                    </div>
+
+                    <div class="heart-icon">
+                        <i class="fa-regular fa-heart fa-lg"></i>
+                        <div class="digit">02</div>
+                    </div>
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping fa-sm"></i>
+                        <div class="digit">02</div>
+                    </div>
+                    <button class="sign-in"><a href="sign-in.html">Sign in</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="head-section" class="head-section">
+        <h1 class="head-text">Product Details</h1>
+    </section>
+
+
+
+    <section class="main">
+
+        <img src="./assets/images/product_detail_img.webp" alt="">
+
+        <div class="bottom-side">
+        <h1 class="title">Foam filling cotton slow <br>rebound pillows</h1>
+
+        <p class="subtitle">Seamlessly empower fully researched growth strategies and interoperable internal or
+            “organic” sources. Credibly innovate granular internal or “organic” sources whereas high standards in
+            web-readiness. Credibly innovate granular internal or organic sources whereas high standards in
+            web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences.
+            Dramatically synthesize integrated schemas. with optimal networks.</p>
+
+        <div class="product-count">
+            <p>Quantity</p>
+            <span class="minus">-</span><span class="num">1</span><span class="plus">+</span>
+            <p>$5</p>
+        </div>
+
+        <button>ADD TO CART</button>
+    </div>
+    </section>
+
 
 </body>
+
 </html>
