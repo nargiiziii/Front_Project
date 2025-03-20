@@ -1,0 +1,92 @@
+#head-section {
+  height: 30rem;
+  margin-top: 10rem;
+}
+
+.head-section {
+  background-image: url("../images/category.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-section .head-text {
+  font-family: "play-fair";
+  font-size: 5rem;
+}
+
+.main-section {
+  padding: 20rem 0;
+}
+
+.main-section .first-line {
+  display: flex;
+  border-bottom: 1px solid gray;
+  font-size: 1.4rem;
+  color: #828BB2;
+  padding: 2rem 0;
+}
+
+.main-section .first-line .product {
+  flex: 1;
+}
+
+.main-section .first-line .right-side {
+  display: flex;
+  gap: 10rem;
+}
+
+.main-section .second-line {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  font-size: 1.6rem;
+  color: #506172;
+  padding: 2rem 0;
+}
+
+.main-section .second-line img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.main-section .second-line .left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-section .second-line .right-side {
+  display: flex;
+  gap: 3rem;
+}
+
+.main-section .second-line .right-side .quantity {
+  display: flex;
+}
+
+.main-section .buttons {
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section .buttons button {
+  margin: 2rem 0;
+  padding: 1.7rem 5rem;
+  color: white;
+  background-color: #2577FD;
+  border: 1px solid #2577FD;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+.main-section .buttons button:hover {
+  padding: 1.7rem 5rem;
+  color: #2577FD;
+  background-color: white;
+  cursor: pointer;
+}

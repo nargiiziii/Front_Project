@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/nav-foot.css">
+    <link rel="stylesheet" href="./assets/css/shopping_cart.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+
+    <section id="navbar">
+        <div class="nav-area">
+            <div class="logo">
+                <img src="./assets/images/logo.webp" alt="" />
+            </div>
+
+            <div class="burger">
+                <p>MENU</p> <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+
+            <div class="responsive">
+                <ul class="nav-list">
+                    <li>Home</li>
+                    <li>Category</li>
+                    <li class="hot">
+                        <div class="hot-text">HOT</div>
+                        Latest
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="">Product List</a></li>
+                                <li><a href="">Product Detail</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>Blog
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Blog Detail</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>Pages
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="">Login</a></li>
+                                <li><a href="">Card</a></li>
+                                <li><a href="">Element</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Confirmation</a></li>
+                                <li><a href="">Shopping Cart</a></li>
+                                <li><a href="">Product Checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>Contact</li>
+                </ul>
+
+                <div class="nav-right">
+                    <div class="search">
+                        <input type="search" placeholder="Search products" name="" id="" />
+                        <div class="search-icon"> <i class="fa-solid fa-magnifying-glass fa-lg"></i></div>
+                    </div>
+
+                    <div class="heart-icon">
+                        <i class="fa-regular fa-heart fa-lg"></i>
+                        <div class="digit">02</div>
+                    </div>
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping fa-sm"></i>
+                        <div class="digit">02</div>
+                    </div>
+                    <button class="sign-in"><a href="sign-in.html">Sign in</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="head-section" class="head-section">
+        <h1 class="head-text">Card List</h1>
+    </section>
+
+
+
+
+    <!-- <label for="fruit">Выберите фрукт:</label>
+    <select id="fruit" name="fruit">
+        <option value="apple">Яблоко</option>
+        <option value="banana">Банан</option>
+        <option value="cherry">Вишня</option>
+    </select>
+     -->
+
+    <!-- main section -->
+
+    <section id="main-section">
+        <div class="main-section">
+            <div class="container">
+
+                <div class="first-line">
+                    <p class="product">Product</p>
+                    <div class="right-side">
+                        <p class="price">Price</p>
+                        <p class="quantity">Quantity</p>
+                        <p class="total">Total</p>
+                    </div>
+                </div>
+
+                <div class="second-line">
+                    <div class="left-side">
+                        <img src="./assets/images/shopping_cart.img1.webp" alt="">
+                        <p class="product">Minimalistic shop for multipurpose use </p>
+                    </div>
+                    <div class="right-side">
+                        <p class="price">$360.00</p>
+                        <p class="quantity">
+                        <div class="minus">-</div>
+                        <p class="num">1</p>
+                        <div class="plus">+</div>
+                        </p>
+
+                        <p class="total">$720.00</p>
+                    </div>
+                </div>
+
+                <div class="second-line">
+                    <div class="left-side">
+                        <img src="./assets/images/shopping_cart.img2.webp" alt="">
+                        <p class="product">Minimalistic shop for multipurpose use </p>
+                    </div>
+                    <div class="right-side">
+                        <p class="price">$360.00</p>
+                        <p class="quantity">
+                        <div class="minus">-</div>
+                        <p class="num">1</p>
+                        <div class="plus">+</div>
+                        </p>
+                        <p class="total">$720.00</p>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button>Update Cart</button>
+                    <button>Close Coupon</button>
+                </div>
+
+
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="column">
+                <div class="logo">
+                    <img src="./assets/images/logo.webp" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.
+                </p>
+            </div>
+            <div class="column">
+                <h3>Quick Links </h3>
+                <ul class="list">
+                    <li>About</li>
+                    <li>Offers Offers</li>
+                    <li>Get Coupon</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>New Products </h3>
+                <ul class="list">
+                    <li>Woman</li>
+                    <li>Fashion</li>
+                    <li>Man</li>
+                    <li>Rubber</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Support </h3>
+                <ul class="list">
+                    <li>Privacy Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyrights">
+            <p>Copyright ©2025 All rights reserved | This template is made with by <a
+                    href="https://preview.colorlib.com/theme/estore/index.html">Colorlib</a> </p>
+
+            <div class="social-media">
+                <div class="icon"><i class="fa-solid fa-dove"></i></div>
+                <div class="icon"><i class="fa-solid fa-f"></i></div>
+                <div class="icon"><i class="fa-solid fa-b"></i></div>
+                <div class="icon"><i class="fa-solid fa-globe"></i></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
