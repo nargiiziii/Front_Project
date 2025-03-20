@@ -977,3 +977,27 @@
     width: 50rem;
   }
 }
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+}
+
+.gallery img {
+  width: 26rem;
+}
+
+@media only screen and (min-width: 796px) and (max-width: 1196px) {
+  .gallery img {
+    width: 17rem;
+  }
+}
+@media only screen and (max-width: 796px) {
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .gallery img {
+    width: 18rem;
+  }
+}
