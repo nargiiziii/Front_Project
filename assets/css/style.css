@@ -837,3 +837,92 @@
     padding: 0 2rem;
   }
 }
+#latest-news {
+  height: 40rem;
+  background-image: url("../images/get-our-latest-img.png");
+  margin: 0 3rem;
+}
+
+.latest-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.latest-news .left-side .title {
+  font-size: 4.5rem;
+  font-family: play-fair;
+  margin-bottom: 1.9rem;
+}
+
+.latest-news .left-side .subtitle {
+  font-size: 2rem;
+  font-family: poppins;
+  margin-bottom: 5.5rem;
+}
+
+.latest-news .right-side {
+  position: relative;
+}
+
+.latest-news .right-side input {
+  width: 40rem;
+  border-radius: 5rem;
+  border: none;
+  padding: 22px 35px;
+  background-color: white;
+  outline: none;
+}
+
+.latest-news .right-side ::-moz-placeholder {
+  color: gray;
+  font-size: 1.6rem;
+}
+
+.latest-news .right-side ::placeholder {
+  color: gray;
+  font-size: 1.6rem;
+}
+
+.latest-news .right-side button {
+  padding: 22px 42px;
+  font-size: 1.4rem;
+  background-color: #2577FD;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 25rem;
+}
+
+@media only screen and (min-width: 796px) and (max-width: 1196px) {
+  .latest-news .left-side .title {
+    font-size: 3.6rem;
+  }
+  .latest-news .right-side input {
+    width: 30rem;
+    padding: 22px 40px;
+  }
+  .latest-news .right-side button {
+    padding: 22px 30px;
+    font-size: 1.4rem;
+    left: 17.5rem;
+  }
+}
+@media only screen and (max-width: 796px) {
+  .latest-news {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .latest-news .left-side .title {
+    font-size: 2.7rem;
+  }
+  .latest-news .right-side input {
+    width: 40rem;
+  }
+  .latest-news .right-side button {
+    padding: 22px 30px;
+    left: 27.5rem;
+  }
+}
