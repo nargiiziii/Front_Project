@@ -502,14 +502,14 @@
 }
 
 .cards .card {
-  width: 39rem;
-  height: 52rem;
+  width: 37rem;
+  height: 50rem;
   border: none;
 }
 
 .cards .card img {
-  width: 36rem;
-  height: 39rem;
+  width: 34rem;
+  height: 37rem;
   align-self: center;
 }
 
@@ -706,7 +706,7 @@ margin-bottom: 1.9rem;
 
 }
 
-@media only screen and (min-width: 776px) and (max-width:996px) {
+@media only screen and (min-width: 556px) and (max-width:996px) {
  
   .best-product {
     height: 43rem;
@@ -770,4 +770,173 @@ margin-bottom: 1.9rem;
 
 // Best Collection of This Month
 
+#best-collection {
+  height: 110rem;
+}
 
+.best-collection {
+  padding: 20rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+.best-collection .first-col {
+  width: 36rem;
+  margin: 0 3rem;
+}
+
+.best-collection .first-col .title {
+  font-size: 4.5rem;
+font-family: play-fair;
+margin-bottom: 1.9rem;
+}
+
+
+.best-collection .first-col .subtitle {
+  font-size: 2rem;
+  font-family: poppins;
+  margin-bottom: 5.5rem;
+}
+
+.best-collection .first-col button {
+  padding: 16px 40px;
+  font-size: 1.8rem;
+  background-color: #2577FD;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+
+.best-collection .first-col img {
+  padding-top: 13rem;
+}
+
+.best-collection .third-col {
+  width: 39rem;
+ display: flex;
+ flex-direction: column;
+ align-items: end;
+} 
+
+.best-collection .third-col p{
+  font-size: 1.8rem;
+  font-family: poppins;
+} 
+
+.best-collection .third-col .second-row p{
+  font-size: 1.8rem;
+  font-family: poppins;
+  background-color: #2577FD;
+  color: white;
+  border-radius: 10px;
+  padding: 1.4rem 3rem;
+} 
+
+.best-collection .third-col .first-row {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.best-collection .third-col .second-row {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.best-collection .third-col .third-row {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+ 
+  .best-collection .first-col .title {
+    font-size: 3.3rem;
+  }
+
+  .best-collection .first-col {
+    width: 36rem;
+    margin: 0;
+    margin-left: 3rem;
+  }
+  
+}
+
+@media only screen and (min-width: 796px) and (max-width:996px) {
+
+  #best-collection {
+    height: 68rem;
+  }
+  
+  .best-collection {
+    padding: 10rem 0;
+    gap: 0;
+  }
+
+  .best-collection .second-col img {
+    display: none;
+  }
+
+  .best-collection .first-col .title {
+    font-size: 3.3rem;
+  }
+
+  .best-collection .first-col {
+    width: 33rem;
+    margin: 0;
+    margin-left: 0rem;
+  }
+
+  .best-collection .first-col img {
+    padding-top: 3rem;
+  }
+  
+  .best-collection .third-col {
+    width: 36rem;
+   justify-content: start;
+  } 
+  
+}
+
+@media only screen and (max-width:796px) {
+
+  #best-collection {
+    height: 75rem;
+  }
+
+  .best-collection .first-col .title {
+    font-size: 3.3rem;
+  }
+  .best-collection .first-col {
+    width: 100%;
+padding: 0 1rem;
+   margin: 0;
+  }
+
+  .best-collection {
+    padding: 7rem 0;
+    display: block;
+  }
+
+  .best-collection .second-col img {
+    display: none;
+  }
+
+  .best-collection .first-col img {
+    display: none;
+  }
+
+  .best-collection .third-col {
+    width: 100%;
+ padding: 0 2rem;
+  } 
+
+}
