@@ -525,6 +525,7 @@
   display: flex;
   align-items: center;
   padding-bottom: 2rem;
+  color: gray;
 }
 
 .cards .card .stars .yellow {
@@ -603,6 +604,10 @@
 
 @media only screen and (min-width: 776px) and (max-width:996px) {
       
+  #latest {
+    min-height: 100rem;
+  }
+
     .cards {
         gap: 0rem;
         padding: 5rem 0;
@@ -635,5 +640,134 @@
         gap: 0rem;
         padding: 5rem 0;
     }
+}
+
+
+// Find The Best Product
+
+
+ .best-product {
+  margin: 0 6rem;
+  background-color: #FFF6D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 58rem;
+  position: relative;
+}
+
+
+.best-product img:nth-child(1) {
+  align-self: flex-end;
+}
+
+.best-product .info-text {
+  width: 70rem;
+  margin: 0 6rem;
+}
+
+.best-product h1 {
+font-size: 5.5rem;
+font-family: play-fair;
+margin-bottom: 1.9rem;
+}
+
+.best-product p {
+  font-size: 2rem;
+  font-family: poppins;
+  margin-bottom: 5.5rem;
+}
+
+.best-product button {
+  padding: 16px 40px;
+  font-size: 1.8rem;
+  background-color: #000000;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+
+.best-product .info-text img {
+  position: absolute;
+  right: 10rem;
+}
+
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+
+  .best-product .info-text {
+    width: 55rem;
+    margin: 0;
+  }
+  
+  .best-product h1 {
+  font-size: 4.5rem;
+  }
 
 }
+
+@media only screen and (min-width: 776px) and (max-width:996px) {
+ 
+  .best-product {
+    height: 43rem;
+    margin: 0 2rem;
+  }
+    
+
+  .best-product img:nth-child(1) {
+    display: none;
+  }
+
+  .best-product .info-text {
+    width: 55rem;
+    margin: 2rem;
+  }
+  
+  .best-product h1 {
+  font-size: 4.5rem;
+  }
+
+  .best-product .info-text img {
+    bottom: 2rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 576px){
+ 
+  .best-product {
+    height: 33rem;
+    margin: 0 2rem 2rem;
+    padding: 0 2rem;
+  }
+    
+
+  .best-product img:nth-child(1) {
+    display: none;
+  }
+
+  .best-product .info-text {
+    width: 55rem;
+    margin: 0;
+  }
+  
+  .best-product h1 {
+  font-size: 2.1rem;
+  }
+
+  .best-product p {
+    font-size: 1.7rem;
+    }
+  
+
+  .best-product .info-text img {
+    display: none;
+  }
+
+}
+
+
+// Best Collection of This Month
+
+
