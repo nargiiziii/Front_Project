@@ -308,7 +308,7 @@ footer {
   }
 
   .footer .column {
-    width: 24rem;
+    width: 20rem;
     padding: 0 2rem;
   }
 
@@ -318,6 +318,6 @@ footer {
     padding: 0 2rem;
   }
   .copyrights p {
-    width: 40rem;
+    width: 30rem;
   }
 }
