@@ -18,14 +18,14 @@
 }
 
 .main-section {
-  padding: 20rem 0;
+  padding: 15rem 0;
 }
 
 .main-section .first-line {
   display: flex;
   border-bottom: 1px solid gray;
   font-size: 1.4rem;
-  color: #828BB2;
+  color: #828bb2;
   padding: 2rem 0;
 }
 
@@ -78,15 +78,187 @@
   margin: 2rem 0;
   padding: 1.7rem 5rem;
   color: white;
-  background-color: #2577FD;
-  border: 1px solid #2577FD;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
   border-radius: 1rem;
   font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .main-section .buttons button:hover {
   padding: 1.7rem 5rem;
-  color: #2577FD;
+  color: #2577fd;
   background-color: white;
   cursor: pointer;
+}
+
+.main-section .bottom-left {
+  font-size: 1.4rem;
+  color: #506172;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: end;
+  gap: 18rem;
+  border-bottom: 1px solid gray;
+}
+
+.main-section .bottom-left-second {
+  font-size: 1.4rem;
+  color: rgba(80, 97, 114, 0.8235294118);
+  padding: 3rem 0;
+  display: flex;
+  justify-content: end;
+  gap: 4rem;
+}
+
+.main-section .bottom-left-second .shipping {
+  font-size: 1.4rem;
+  color: #506172;
+  font-family: "play-fair";
+}
+
+.main-section .bottom-left-second li {
+  padding: 0.7rem 0;
+  font-size: 1.6rem;
+  font-family: "poppins";
+  justify-self: end;
+}
+
+.main-section .select-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.main-section .select-area select {
+  align-self: end;
+  font-size: 1.4rem;
+  width: 33rem;
+  padding: 1.3rem;
+  background-color: #f7f7f7;
+  outline: none;
+  border-radius: 0.6rem;
+  border: none;
+}
+
+.main-section .select-area select option {
+  font-size: 1.4rem;
+  color: #506172;
+  background-color: #f7f7f7;
+}
+
+.main-section .select-area select option:checked {
+  background-color: #506172;
+  color: #f7f7f7;
+}
+
+.main-section input {
+  width: 33rem;
+  font-size: 1.6rem;
+  padding: 1.3rem;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+  align-self: end;
+}
+
+.main-section .select-area button {
+  width: 19rem;
+  margin: 2rem 0;
+  padding: 1.7rem 1rem;
+  color: white;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.main-section .select-area button:hover {
+  padding: 1.7rem 1rem;
+  color: #2577fd;
+  background-color: white;
+  cursor: pointer;
+}
+
+.main-section .bottom-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 0.5rem;
+}
+
+.main-section .bottom-buttons button {
+  width: 24rem;
+  margin: 2rem 0;
+  padding: 1.7rem 1rem;
+  color: white;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.main-section .bottom-buttons button:hover {
+  padding: 1.7rem 1rem;
+  color: #2577fd;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+  .main-section {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 776px) and (max-width: 996px) {
+  .main-section {
+    padding: 7rem 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 776px) {
+  .main-section {
+    padding: 7rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .main-section .first-line {
+    justify-content: center;
+    gap: 5rem;
+  }
+  .main-section .first-line .product {
+    flex: 0;
+  }
+  .main-section .first-line .right-side {
+    gap: 1rem;
+  }
+  .main-section .second-line .left-side {
+    flex: 0;
+    gap: 1rem;
+  }
+  .main-section .second-line .right-side {
+    gap: 1rem;
+  }
+  .main-section .second-line .right-side .quantity {
+    display: flex;
+  }
+  .main-section .buttons {
+    justify-content: center;
+    gap: 2rem;
+  }
+  .main-section .bottom-buttons button {
+    width: 20rem;
+  }
+}
+footer {
+  padding: 1rem 0;
 }
