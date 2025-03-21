@@ -1,0 +1,620 @@
+#head-section {
+  height: 30rem;
+  margin-top: 10rem;
+}
+
+.head-section {
+  background-image: url("../images/category.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .head-text {
+    font-family: "play-fair";
+    font-size: 5rem;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 12rem 0;
+}
+
+#right-section {
+  width: 79rem;
+  padding: 0 2rem;
+}
+
+.right-section .card .card-info {
+  padding: 6rem 3.5rem;
+}
+
+.right-section .card .card-info .title {
+  font-size: 2.4rem;
+  font-family: "play-fair";
+  margin-bottom: 1.5rem;
+  color: #0b1c39;
+}
+
+.right-section .card .card-info .bottom {
+  font-size: 1.4rem;
+  font-family: "poppins";
+  color: #999999;
+  a {
+    color: #999999;
+  }
+
+  a:hover {
+    color: #ff003c;
+  }
+}
+
+.right-section .text {
+  font-size: 1.6rem;
+  font-family: "poppins";
+  color: #506172;
+  margin-bottom: 3rem;
+  line-height: 2;
+}
+
+.right-section .box {
+  background-color: #88888824;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.right-section .box .box-text {
+  padding: 3rem;
+  background-color: #ffffff;
+  border-left: 2px solid #8a8a8a;
+  font-style: italic;
+  font-size: 1.6rem;
+  font-family: "poppins";
+  color: #888888;
+}
+
+.right-section .text:nth-child(6) {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.264);
+}
+
+.right-section .single-post {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.264);
+}
+
+.right-section .single-post .top {
+  display: flex;
+  justify-content: space-between;
+  color: #888888;
+  margin-bottom: 6rem;
+}
+
+.right-section .single-post .top .right {
+  font-size: 1.4rem;
+  font-family: "poppins";
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-section .single-post .top .left-icons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.right-section .single-post .top .left-icons i:hover {
+color: #ff003c;
+cursor: pointer;
+  }
+
+.right-section .single-post .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-section .single-post .next,
+.prev {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right-section .single-post .bottom p {
+  font-size: 1.6rem;
+  font-family: "poppins";
+  color: #506172;
+}
+
+.right-section .single-post .bottom h4 {
+  font-size: 1.8rem;
+  font-family: "pay-fair";
+  color: #0b1c39;
+}
+
+.right-section .single-post .bottom h4:hover {
+cursor: pointer;
+    color: #ff003c;
+  }
+
+.right-section .single-comment {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  background-color: #fbf9ff;
+  margin-top: 3rem;
+  padding: 4rem 3rem;
+}
+
+.right-section .single-comment .info h3 {
+  font-size: 1.6rem;
+  font-family: "poppins";
+  color: #0b1c39;
+  margin-bottom: 1rem;
+}
+
+.right-section .single-comment .info h3:hover {
+  color: #ff003c;
+  cursor: pointer;
+}
+
+.right-section .single-comment .info p {
+  font-size: 1.5rem;
+  font-family: "poppins";
+  color: #506172;
+}
+
+.right-section .comments-section {
+    margin: 3rem 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.264);
+}
+
+.right-section .comments-section h2 {
+    margin-top: 3rem ;
+    font-size: 1.8rem;
+    font-family: "play-fair";
+    margin-bottom: 3rem;
+}
+
+.right-section .comments-section .comment {
+    font-family: "poppins";
+    position: relative;
+    margin-bottom: 12rem;
+}
+
+.right-section .comments-section .one-comment {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.6rem;
+    color: #777777;
+}
+
+.right-section .comments-section .info {
+    display: flex;
+    gap: 12rem;
+    font-size: 1.4rem;
+    color: #999999;
+    position: absolute;
+    right: 1rem;
+}
+
+.right-section .comments-section .info a{
+    color: #999999;
+}
+
+// Leave a Reply
+
+
+
+aside {
+  width: 39rem;
+  padding: 0 1.5rem;
+}
+
+aside .search-area {
+  padding: 3rem;
+  background-color: #fbf9ff;
+  position: relative;
+  justify-self: center;
+  margin-bottom: 3rem;
+}
+
+aside .search-area .input-area input {
+  width: 30rem;
+  padding: 1.5rem 2rem;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+aside .search-area .input-area::placeholder {
+  font-size: 1.6rem;
+  font-family: "poppins";
+}
+
+aside .search-area .input-area .icon {
+  padding: 1.7rem 1.7rem;
+  background-color: #2577fd;
+  color: white;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  z-index: 1;
+}
+
+aside .search-area button {
+  width: 30rem;
+  padding: 1.2rem 5.4rem;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  color: white;
+  font-family: "play-fair";
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+aside .search-area button:hover {
+  background-color: white;
+  border: 1px solid #ff003c;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+aside .left-area {
+  padding: 3rem;
+  background-color: #fbf9ff;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+aside .left-area .title {
+  font-family: "play-fair";
+  font-size: 2rem;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+  color: #0b1c39;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.153);
+}
+
+aside .left-area .category li {
+  color: #506172;
+  font-family: "poppins";
+  font-size: 1.6rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.153);
+}
+
+aside .left-area .category li:hover {
+  color: #ff003c;
+  cursor: pointer;
+}
+
+aside .left-area .posts .post {
+  margin-top: 2rem;
+}
+
+aside .left-area .posts .post {
+  display: flex;
+  gap: 1rem;
+}
+
+aside .left-area .posts .post .info {
+  padding: 1rem;
+  align-self: center;
+}
+
+aside .left-area .posts .post .info h4 {
+  color: #0b1c39;
+  font-size: 1.6rem;
+  font-family: "play-fair";
+  margin-bottom: 1rem;
+
+  &:hover {
+    color: #ff003c;
+    cursor: pointer;
+  }
+}
+
+aside .left-area .posts .post .info p {
+  color: #506172;
+  font-size: 1.4rem;
+  font-family: "poppins";
+}
+
+aside .left-area .tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+aside .left-area .tags p {
+  border: 1px solid rgba(128, 128, 128, 0.189);
+  padding: 5px 10px;
+  margin: 3px;
+  background-color: white;
+  color: #8a8a8a;
+  font-size: 1.3rem;
+  font-family: "poppins";
+
+  &:hover {
+    background-color: #ff003c;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+aside .left-area .feeds {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+aside .left-area .feeds img {
+  padding: 5px;
+  cursor: pointer;
+}
+
+aside .left-area .newsletter input {
+  width: 30rem;
+  padding: 1.5rem 2rem;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+aside .left-area .newsletter::placeholder {
+  font-size: 1.6rem;
+  font-family: "poppins";
+}
+
+aside .left-area button {
+  width: 30rem;
+  padding: 1.2rem 5.4rem;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  color: white;
+  font-family: "play-fair";
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+aside .left-area button:hover {
+  background-color: white;
+  border: 1px solid #ff003c;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+  #news-cards {
+    width: 61rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .news-cards .card img {
+    width: 57rem;
+    height: 30rem;
+  }
+
+  aside {
+    width: 29rem;
+    padding: 0 1.5rem;
+  }
+
+  aside .search-area {
+    width: 29rem;
+  }
+
+  aside .search-area .input-area input {
+    width: 25rem;
+  }
+
+  aside .search-area button {
+    width: 25rem;
+  }
+
+  aside .search-area .input-area .icon {
+    right: 1rem;
+  }
+
+  aside .left-area {
+    padding: 1rem;
+  }
+
+  aside .left-area .posts .post img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  aside .left-area .feeds {
+    width: 25rem;
+  }
+
+  aside .left-area .feeds img {
+    width: 6.8rem;
+    height: 6.8rem;
+  }
+
+  aside .left-area .newsletter input {
+    width: 23rem;
+  }
+
+  aside .left-area button {
+    width: 23rem;
+  }
+
+  footer {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 776px) and (max-width: 996px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .news-cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .news-cards .card img {
+    width: 69rem;
+    height: 34rem;
+  }
+
+  .news-cards .card .date {
+    left: 7rem;
+  }
+
+  aside {
+    width: 69rem;
+    padding: 0 1.5rem;
+  }
+
+  aside .search-area {
+    width: 69rem;
+  }
+
+  aside .search-area .input-area input {
+    width: 65rem;
+  }
+
+  aside .search-area button {
+    width: 65rem;
+  }
+
+  aside .search-area .input-area .icon {
+    right: 1rem;
+  }
+
+  aside .left-area .tags {
+    width: 50rem;
+  }
+
+  aside .left-area .posts .post img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  aside .left-area .feeds {
+    width: 69rem;
+  }
+
+  aside .left-area .feeds img {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  aside .left-area .newsletter input {
+    width: 65rem;
+  }
+
+  aside .left-area button {
+    width: 65rem;
+  }
+
+  footer {
+    padding: 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #news-cards {
+    width: 48rem;
+    padding: 0 2rem;
+  }
+
+  .news-cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .news-cards .card img {
+    width: 45rem;
+    height: 22rem;
+  }
+
+  .news-cards .card .date {
+    font-size: 1.4rem;
+    padding: 0.8rem 2.4rem;
+    left: 2rem;
+    bottom: 33rem;
+  }
+
+  aside {
+    width: 48rem;
+    padding: 0 1.5rem;
+  }
+
+  aside .search-area {
+    width: 45rem;
+  }
+
+  aside .search-area .input-area input {
+    width: 40rem;
+  }
+
+  aside .search-area button {
+    width: 40rem;
+  }
+
+  aside .search-area .input-area .icon {
+    right: 2rem;
+  }
+
+  aside .left-area .tags {
+    width: 45rem;
+  }
+
+  aside .left-area .posts .post img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  aside .left-area .feeds {
+    width: 40rem;
+  }
+
+  aside .left-area .feeds img {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  aside .left-area .newsletter input {
+    width: 40rem;
+  }
+
+  aside .left-area button {
+    width: 40rem;
+  }
+
+  footer {
+    padding: 2rem 2rem;
+  }
+}
