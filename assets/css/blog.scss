@@ -95,7 +95,7 @@ main {
 }
 
 .news-cards .next-prev-area {
-    padding: 2rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,12 +110,189 @@ main {
 }
 
 .news-cards .next-prev-area .item:hover {
+  color: #ff003c;
+  cursor: pointer;
+}
+
+aside {
+  width: 39rem;
+  padding: 0 1.5rem;
+  background-color: antiquewhite;
+}
+
+aside .search-area {
+  padding: 3rem;
+  background-color: #fbf9ff;
+  position: relative;
+  justify-self: center;
+  margin-bottom: 3rem;
+}
+
+aside .search-area .input-area input {
+  width: 30rem;
+  padding: 1.5rem 2rem;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+aside .search-area .input-area::placeholder {
+  font-size: 1.6rem;
+  font-family: "poppins";
+}
+
+aside .search-area .input-area .icon {
+  padding: 1.7rem 1.7rem;
+  background-color: #2577fd;
+  color: white;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}
+
+aside .search-area button {
+  width: 30rem;
+  padding: 1.2rem 5.4rem;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  color: white;
+  font-family: "play-fair";
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+aside .search-area button:hover {
+  background-color: white;
+  border: 1px solid #ff003c;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+aside .left-area {
+  padding: 3rem;
+  background-color: #fbf9ff;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+aside .left-area .title {
+  font-family: "play-fair";
+  font-size: 2rem;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+  color: #0b1c39;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.153);
+}
+
+aside .left-area .category li {
+  color: #506172;
+  font-family: "poppins";
+  font-size: 1.6rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.153);
+}
+
+aside .left-area .category li:hover {
+  color: #ff003c;
+  cursor: pointer;
+}
+
+aside .left-area .posts .post {
+  margin-top: 2rem;
+}
+
+aside .left-area .posts .post {
+  display: flex;
+  gap: 1rem;
+}
+
+aside .left-area .posts .post .info {
+  padding: 1rem;
+  align-self: center;
+}
+
+aside .left-area .posts .post .info h4 {
+  color: #0b1c39;
+  font-size: 1.6rem;
+  font-family: "play-fair";
+  margin-bottom: 1rem;
+
+  &:hover {
     color: #ff003c;
     cursor: pointer;
   }
+}
 
-aside {
-  width: 36rem;
-  padding: 0 3rem;
-  background-color: antiquewhite;
+aside .left-area .posts .post .info p {
+  color: #506172;
+  font-size: 1.4rem;
+  font-family: "poppins";
+}
+
+aside .left-area .tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+aside .left-area .tags p {
+  border: 1px solid rgba(128, 128, 128, 0.189);
+  padding: 5px 10px;
+  margin: 3px;
+  background-color: white;
+  color: #8a8a8a;
+  font-size: 1.3rem;
+  font-family: "poppins";
+
+  &:hover {
+    background-color: #ff003c;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+aside .left-area .feeds {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+aside .left-area .feeds img {
+  padding: 5px;
+  cursor: pointer;
+}
+
+aside .left-area .newsletter input {
+  width: 30rem;
+  padding: 1.5rem 2rem;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+aside .left-area .newsletter::placeholder {
+  font-size: 1.6rem;
+  font-family: "poppins";
+}
+
+aside .left-area button {
+  width: 30rem;
+  padding: 1.2rem 5.4rem;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  color: white;
+  font-family: "play-fair";
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+aside .left-area button:hover {
+  background-color: white;
+  border: 1px solid #ff003c;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
 }
