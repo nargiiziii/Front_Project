@@ -1,0 +1,266 @@
+#head-section {
+  height: 30rem;
+  margin-top: 10rem;
+}
+
+.head-section {
+  background-image: url("../images/category.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .head-text {
+    font-family: "play-fair";
+    font-size: 5rem;
+  }
+}
+
+.map {
+  justify-self: center;
+  margin: 5rem;
+}
+
+.contact-area {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  width: 100%;
+  margin: 10rem 0;
+}
+
+.contact-area .reply h3 {
+  font-size: 2.7rem;
+  font-family: "play-fair";
+  color: #0b1c39;
+  margin-bottom: 4rem;
+}
+
+.contact-area .reply .comment textarea {
+  padding: 2rem;
+  width: 70rem;
+  height: 18rem;
+  outline: none;
+  border: 1px solid #8888884a;
+  font-family: "poppins";
+  margin-bottom: 2rem;
+}
+
+.contact-area .reply .comment textarea::placeholder {
+  color: #999999;
+}
+
+.contact-area .reply .place {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-area .reply .place input {
+  padding: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid #8888884a;
+  font-family: "poppins";
+}
+
+.contact-area .reply .place input::placeholder {
+  color: #999999;
+}
+
+.contact-area .reply .website input {
+  padding: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid #8888884a;
+  font-family: "poppins";
+}
+
+.contact-area .reply .website input::placeholder {
+  color: #999999;
+}
+
+.contact-area .reply button {
+  width: 15rem;
+  padding: 1.2rem 2rem;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  color: white;
+  font-family: "play-fair";
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.contact-area .reply button:hover {
+  background-color: white;
+  border: 1px solid #ff003c;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.contact-area .address {
+    margin-top: 3rem;
+}
+
+.contact-area .address .item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+.contact-area .address .item .info h3 {
+  font-size: 1.6rem;
+  font-family: "play-fair";
+  color: #2a2a2a;
+  padding: 1rem 0;
+}
+
+.contact-area .address .item .info p {
+  font-size: 1.6rem;
+  font-family: "play-fair";
+  color: #8a8a8a;
+}
+
+
+
+// gallery section
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6rem;
+  }
+  
+  .gallery img {
+    width: 26rem;
+  }
+
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+  .map iframe {
+    width: 93rem;
+    height: 48rem;
+  }
+
+  .contact-area .reply .comment textarea {
+    width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 776px) and (max-width: 996px) {
+  .map iframe {
+    width: 69rem;
+    height: 48rem;
+  }
+
+  .contact-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-area .address {
+    align-self: flex-start;
+    margin: 0 15rem;
+  }
+
+  .contact-area .address .item {
+    padding-top: 1rem;
+  }
+
+  .gallery img {
+    width: 17rem;
+  }
+
+  footer {
+    padding: 10rem 0;
+  }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 776px) {
+  .map iframe {
+    width: 51rem;
+    height: 48rem;
+  }
+
+  .contact-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-area .reply .comment textarea {
+    width: 40rem;
+  }
+
+  .contact-area .address {
+    align-self: flex-start;
+    margin: 0 10rem;
+  }
+
+  .contact-area .address .item {
+    padding-top: 1rem;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery img {
+    width: 18rem;
+  }
+
+  footer {
+    padding: 10rem 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .map iframe {
+    display: none;
+  }
+
+  .contact-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-area .reply .comment textarea {
+    width: 40rem;
+  }
+
+  .contact-area .address {
+    align-self: flex-start;
+    margin: 0 5rem;
+  }
+
+  .contact-area .address .item {
+    padding-top: 1rem;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery img {
+    width: 18rem;
+  }
+
+  footer {
+    padding: 10rem 0;
+  }
+}
