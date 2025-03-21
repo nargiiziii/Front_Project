@@ -20,12 +20,96 @@
 main {
   display: flex;
   justify-content: center;
+  padding: 12rem 0;
 }
 
 #news-cards {
-  width: 75rem;
-  padding: 0 1.5rem;
-  background-color: aquamarine;
+  width: 79rem;
+  padding: 0 2rem;
+}
+
+.news-cards .card {
+  margin-bottom: 4rem;
+  position: relative;
+  box-shadow: 1px 1px 10px rgba(153, 153, 153, 0.114);
+}
+
+.news-cards .card .date {
+  color: white;
+  background-color: #ff003c;
+  font-family: "poppins";
+  font-size: 1.8rem;
+  padding: 1.3rem 3rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 25rem;
+}
+
+.news-cards .card .date:hover {
+  color: #ff003c;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.news-cards .card .date span {
+  font-family: "play-fair";
+  font-size: 3rem;
+}
+
+.news-cards .card .card-info {
+  padding: 6rem 3.5rem;
+}
+
+.news-cards .card .card-info .title {
+  font-size: 2.4rem;
+  font-family: "play-fair";
+  margin-bottom: 1.5rem;
+  color: #0b1c39;
+}
+
+.news-cards .card .card-info .title:hover {
+  color: #ff003c;
+  cursor: pointer;
+}
+
+.news-cards .card .card-info .subtitle {
+  font-size: 1.6rem;
+  font-family: "poppins";
+  margin-bottom: 3rem;
+  color: #506172;
+}
+
+.news-cards .card .card-info .bottom {
+  font-size: 1.4rem;
+  font-family: "poppins";
+  color: #999999;
+}
+.news-cards .card .card-info .bottom a {
+  color: #999999;
+}
+.news-cards .card .card-info .bottom a:hover {
+  color: #ff003c;
+}
+
+.news-cards .next-prev-area {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.news-cards .next-prev-area .item {
+  border: 1px solid rgba(153, 153, 153, 0.262745098);
+  padding: 1.5rem 2rem;
+  color: #8a8a8a;
+  font-size: 1.6rem;
+}
+
+.news-cards .next-prev-area .item:hover {
+  color: #ff003c;
+  cursor: pointer;
 }
 
 aside {
