@@ -1,0 +1,35 @@
+#head-section {
+  height: 30rem;
+  margin-top: 10rem;
+}
+
+.head-section {
+  background-image: url("../images/category.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-section .head-text {
+  font-family: "play-fair";
+  font-size: 5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#news-cards {
+  width: 75rem;
+  padding: 0 1.5rem;
+  background-color: aquamarine;
+}
+
+aside {
+  width: 36rem;
+  padding: 0 3rem;
+  background-color: antiquewhite;
+}
