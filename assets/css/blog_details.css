@@ -171,6 +171,7 @@ main {
 .right-section .comments-section {
   margin: 3rem 0;
   border-top: 1px solid rgba(128, 128, 128, 0.264);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.264);
 }
 
 .right-section .comments-section h2 {
@@ -205,6 +206,94 @@ main {
 
 .right-section .comments-section .info a {
   color: #999999;
+}
+
+.right-section .comments-section .info a:hover {
+  color: #ff003c;
+  cursor: pointer;
+}
+
+.right-section .reply h3 {
+  font-size: 1.8rem;
+  font-family: "play-fair";
+  color: #0b1c39;
+  margin-bottom: 4rem;
+}
+
+.right-section .reply .comment textarea {
+  padding: 2rem;
+  width: 100%;
+  height: 18rem;
+  outline: none;
+  border: 1px solid rgba(136, 136, 136, 0.2901960784);
+  font-family: "poppins";
+  margin-bottom: 2rem;
+}
+
+.right-section .reply .comment textarea::-moz-placeholder {
+  color: #999999;
+}
+
+.right-section .reply .comment textarea::placeholder {
+  color: #999999;
+}
+
+.right-section .reply .place {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.right-section .reply .place input {
+  padding: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid rgba(136, 136, 136, 0.2901960784);
+  font-family: "poppins";
+}
+
+.right-section .reply .place input::-moz-placeholder {
+  color: #999999;
+}
+
+.right-section .reply .place input::placeholder {
+  color: #999999;
+}
+
+.right-section .reply .website input {
+  padding: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid rgba(136, 136, 136, 0.2901960784);
+  font-family: "poppins";
+}
+
+.right-section .reply .website input::-moz-placeholder {
+  color: #999999;
+}
+
+.right-section .reply .website input::placeholder {
+  color: #999999;
+}
+
+.right-section .reply button {
+  width: 23rem;
+  padding: 1.2rem 2rem;
+  background-color: #2577fd;
+  border: 1px solid #2577fd;
+  color: white;
+  font-family: "play-fair";
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.right-section .reply button:hover {
+  background-color: white;
+  border: 1px solid #ff003c;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 aside {
@@ -398,13 +487,17 @@ aside .left-area button:hover {
   cursor: pointer;
 }
 
+footer {
+  padding: 7rem 2rem;
+}
+
 @media only screen and (min-width: 996px) and (max-width: 1196px) {
-  #news-cards {
+  #right-section {
     width: 61rem;
     position: relative;
     z-index: 1;
   }
-  .news-cards .card img {
+  .right-section .card img {
     width: 57rem;
     height: 30rem;
   }
@@ -455,18 +548,23 @@ aside .left-area button:hover {
     align-items: center;
     flex-direction: column;
   }
-  .news-cards .card {
+  .right-section {
+    margin-bottom: 3rem;
+  }
+  #right-section {
+    width: 61rem;
+    position: relative;
+    z-index: 1;
+  }
+  .right-section .card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .news-cards .card img {
+  .right-section .card img {
     width: 69rem;
     height: 34rem;
-  }
-  .news-cards .card .date {
-    left: 7rem;
   }
   aside {
     width: 69rem;
@@ -515,25 +613,22 @@ aside .left-area button:hover {
     align-items: center;
     flex-direction: column;
   }
-  #news-cards {
+  #right-section {
     width: 48rem;
     padding: 0 2rem;
   }
-  .news-cards .card {
+  .right-section {
+    margin-bottom: 3rem;
+  }
+  .right-section .card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .news-cards .card img {
+  .right-section .card img {
     width: 45rem;
     height: 22rem;
-  }
-  .news-cards .card .date {
-    font-size: 1.4rem;
-    padding: 0.8rem 2.4rem;
-    left: 2rem;
-    bottom: 33rem;
   }
   aside {
     width: 48rem;
