@@ -115,7 +115,6 @@ main {
 aside {
   width: 39rem;
   padding: 0 1.5rem;
-  background-color: antiquewhite;
 }
 
 aside .search-area {
@@ -151,6 +150,7 @@ aside .search-area .input-area .icon {
   position: absolute;
   top: 3rem;
   right: 3rem;
+  z-index: 1;
 }
 
 aside .search-area button {
@@ -301,4 +301,182 @@ aside .left-area button:hover {
   border: 1px solid #ff003c;
   color: rgb(0, 0, 0);
   cursor: pointer;
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+  #news-cards {
+    width: 61rem;
+    position: relative;
+    z-index: 1;
+  }
+  .news-cards .card img {
+    width: 57rem;
+    height: 30rem;
+  }
+  aside {
+    width: 29rem;
+    padding: 0 1.5rem;
+  }
+  aside .search-area {
+    width: 29rem;
+  }
+  aside .search-area .input-area input {
+    width: 25rem;
+  }
+  aside .search-area button {
+    width: 25rem;
+  }
+  aside .search-area .input-area .icon {
+    right: 1rem;
+  }
+  aside .left-area {
+    padding: 1rem;
+  }
+  aside .left-area .posts .post img {
+    width: 8rem;
+    height: 8rem;
+  }
+  aside .left-area .feeds {
+    width: 25rem;
+  }
+  aside .left-area .feeds img {
+    width: 6.8rem;
+    height: 6.8rem;
+  }
+  aside .left-area .newsletter input {
+    width: 23rem;
+  }
+  aside .left-area button {
+    width: 23rem;
+  }
+  footer {
+    padding-top: 2rem;
+  }
+}
+@media only screen and (min-width: 776px) and (max-width: 996px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .news-cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .news-cards .card img {
+    width: 69rem;
+    height: 34rem;
+  }
+  .news-cards .card .date {
+    left: 7rem;
+  }
+  aside {
+    width: 69rem;
+    padding: 0 1.5rem;
+  }
+  aside .search-area {
+    width: 69rem;
+  }
+  aside .search-area .input-area input {
+    width: 65rem;
+  }
+  aside .search-area button {
+    width: 65rem;
+  }
+  aside .search-area .input-area .icon {
+    right: 1rem;
+  }
+  aside .left-area .tags {
+    width: 50rem;
+  }
+  aside .left-area .posts .post img {
+    width: 8rem;
+    height: 8rem;
+  }
+  aside .left-area .feeds {
+    width: 69rem;
+  }
+  aside .left-area .feeds img {
+    width: 9rem;
+    height: 9rem;
+  }
+  aside .left-area .newsletter input {
+    width: 65rem;
+  }
+  aside .left-area button {
+    width: 65rem;
+  }
+  footer {
+    padding: 2rem 2rem;
+  }
+}
+@media only screen and (max-width: 776px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #news-cards {
+    width: 48rem;
+    padding: 0 2rem;
+  }
+  .news-cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .news-cards .card img {
+    width: 45rem;
+    height: 22rem;
+  }
+  .news-cards .card .date {
+    font-size: 1.4rem;
+    padding: 0.8rem 2.4rem;
+    left: 2rem;
+    bottom: 33rem;
+  }
+  aside {
+    width: 48rem;
+    padding: 0 1.5rem;
+  }
+  aside .search-area {
+    width: 45rem;
+  }
+  aside .search-area .input-area input {
+    width: 40rem;
+  }
+  aside .search-area button {
+    width: 40rem;
+  }
+  aside .search-area .input-area .icon {
+    right: 2rem;
+  }
+  aside .left-area .tags {
+    width: 45rem;
+  }
+  aside .left-area .posts .post img {
+    width: 8rem;
+    height: 8rem;
+  }
+  aside .left-area .feeds {
+    width: 40rem;
+  }
+  aside .left-area .feeds img {
+    width: 9rem;
+    height: 9rem;
+  }
+  aside .left-area .newsletter input {
+    width: 40rem;
+  }
+  aside .left-area button {
+    width: 40rem;
+  }
+  footer {
+    padding: 2rem 2rem;
+  }
 }
