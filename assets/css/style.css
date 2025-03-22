@@ -444,7 +444,7 @@
     font-size: 4.5rem;
   }
 }
-@media only screen and (min-width: 556px) and (max-width: 996px) {
+@media only screen and (min-width: 576px) and (max-width: 996px) {
   .best-product {
     height: 43rem;
     margin: 0 2rem;
