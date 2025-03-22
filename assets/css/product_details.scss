@@ -187,7 +187,8 @@
 
 .subscribe-area .input-area input{
   background-color: transparent;
-  padding: 2rem 12rem;
+  width: 50rem;
+  padding: 2rem 5rem;
   border: 1px solid white;
   border-radius: 5rem;
 }
@@ -205,7 +206,7 @@
   font-size: 1.6rem;
   border-radius: 5rem;
   position: absolute;
-  right: 0.7rem;
+  right: 0;
 }
 
 .subscribe-area .input-area button:hover {
@@ -229,6 +230,10 @@
 @media only screen and (max-width: 776px) {
   #promotions {
     height: 37rem;
+  }
+
+  .subscribe-area .input-area input{
+    width: 35rem;
   }
 
   .subscribe-area  h1 {
