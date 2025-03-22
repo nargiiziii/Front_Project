@@ -301,7 +301,7 @@ aside .dropdown-menu .dropdown-item:hover {
 }
 #review {
   height: 49rem;
-  background-color: #B08EAD;
+  background-color: #b08ead;
 }
 
 .review {
@@ -312,6 +312,22 @@ aside .dropdown-menu .dropdown-item:hover {
   flex-direction: column;
   color: white;
   gap: 2rem;
+  position: relative;
+}
+
+.review .angle-btn {
+  display: flex;
+  gap: 90rem;
+  position: absolute;
+  top: 20rem;
+}
+
+.review .angle-btn .next,
+.prev {
+  color: #795376;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
 }
 
 .review .text {
@@ -330,22 +346,38 @@ aside .dropdown-menu .dropdown-item:hover {
   #review {
     height: 43rem;
   }
+  .review .angle-btn {
+    gap: 80rem;
+  }
 }
 @media only screen and (min-width: 796px) and (max-width: 996px) {
   #review {
     height: 37rem;
   }
+  .review .angle-btn {
+    gap: 60rem;
+    top: 17rem;
+  }
   .review .text {
     font-size: 1.8rem;
+    width: 40rem;
   }
 }
 @media only screen and (max-width: 796px) {
   #review {
     height: 40rem;
   }
+  .review .angle-btn {
+    gap: 40rem;
+  }
+  .review .angle-btn .next,
+  .prev {
+    border-radius: 50%;
+    padding: 1rem;
+  }
   .review .text {
     font-size: 1.8rem;
-    width: 40rem;
+    width: 35rem;
   }
 }
 .shop-method {
@@ -396,7 +428,7 @@ aside .dropdown-menu .dropdown-item:hover {
     padding: 5rem 0;
   }
   .shop-method .col {
-    width: 50rem;
+    width: 45rem;
   }
 }
 #promotions {

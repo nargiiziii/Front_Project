@@ -63,7 +63,7 @@
   .responsive ul li:nth-child(3):hover .dropdown {
     display: block;
     background-color: rgb(253, 253, 253);
-    width: 13rem;
+    width: 16rem;
     height: 9rem;
     padding: 1.5rem 1rem;
     border-top: 5px solid #ff003c;
@@ -84,23 +84,23 @@
   .responsive ul li:nth-child(4):hover .dropdown {
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 13rem;
+    width: 15rem;
     height: 9rem;
     padding: 1.5rem 1rem;
     border-top: 5px solid #ff003c;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
   }
   
   .responsive ul li:nth-child(5):hover .dropdown {
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 13rem;
+    width: 16rem;
     height: 23rem;
     padding: 1.5rem 1rem;
     border-top: 5px solid #ff003c;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
   }
   
   

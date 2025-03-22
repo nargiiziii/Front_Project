@@ -52,9 +52,11 @@
   font-size: 1.6rem;
 }
 
-.latest .latest-head .sort p {
-  font-size: 1.5rem;
+.latest .latest-head .sort select {
+  outline: none;
+  border: none;
   cursor: pointer;
+  padding: 0rem 2rem;
 }
 
 .cards {
