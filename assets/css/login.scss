@@ -1,0 +1,229 @@
+#head-section {
+  height: 30rem;
+  margin-top: 10rem;
+}
+
+.head-section {
+  background-image: url("../images/category.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-section .head-text {
+  font-family: "play-fair";
+  font-size: 5rem;
+}
+
+footer {
+  padding: 0;
+}
+
+#login-area {
+  padding: 20rem 0;
+}
+
+.login-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.login-area .left-side {
+  width: 55rem;
+  height: 60rem;
+  background-color: #7c5d79;
+}
+
+.login-area .left-side .inside {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-area .left-side .title {
+  margin-bottom: 1.5rem;
+  font-family: "play-fair";
+  font-size: 2.4rem;
+  color: white;
+}
+
+.login-area .left-side .subtitle {
+  width: 41rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family: "poppins";
+  font-size: 1.6rem;
+  color: white;
+}
+
+.login-area .left-side button {
+  padding: 1.8rem 3.6rem;
+  margin-top: 2.8rem;
+  font-size: 1.4rem;
+  background-color: transparent;
+  color: white;
+  border-radius: 1rem;
+  border: 1px solid white;
+  font-family: "poppins";
+}
+
+.login-area .left-side button:hover {
+  background-color: white;
+  color: #2577fd;
+  cursor: pointer;
+}
+
+.login-area .right-side {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-area .right-side .title {
+  font-size: 2.6rem;
+  font-family: "play-fair";
+  color: #0b1c39;
+  margin-bottom: 8rem;
+}
+
+.login-area .right-side input {
+  outline: none;
+  width: 35rem;
+  margin: 1rem;
+  padding: 1.6rem;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.21);
+}
+
+.login-area .right-side input::placeholder {
+  font-size: 1.6rem;
+  font-family: "poppins";
+  color: rgba(128, 128, 128, 0.618);
+}
+
+.login-area .right-side .remember input {
+  outline: none;
+  width: 2rem;
+  margin: 2rem 0;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.21);
+}
+
+.login-area .right-side .remember label {
+  font-size: 1.4rem;
+  color: rgba(128, 128, 128, 0.81);
+  font-family: "poppins";
+}
+
+.login-area .right-side button {
+  width: 35rem;
+  padding: 1.8rem 3.8rem;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  background-color: transparent;
+  color: #2577fd;
+  border-radius: 1rem;
+  border: 1px solid #2577fd;
+  font-family: "poppins";
+  align-self: center;
+}
+
+.login-area .right-side button:hover {
+  background-color: #2577fd;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.login-area .right-side p {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-family: "poppins";
+  margin-top: 2rem;
+  align-self: flex-end;
+
+  a {
+    color: rgba(128, 128, 128, 0.812);
+  }
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1196px) {
+  #login-area {
+    padding: 10rem 0;
+  }
+
+  .login-area .left-side {
+    width: 45rem;
+    height: 40rem;
+  }
+
+  .login-area .right-side {
+    height: 40rem;
+  }
+
+  .login-area .right-side .title {
+    margin-bottom: 3rem;
+  }
+
+  .login-area .left-side button {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 796px) and (max-width: 996px) {
+  #login-area {
+    padding: 10rem 0;
+  }
+
+  .login-area {
+    gap: 2rem;
+  }
+
+  .login-area .left-side {
+    width: 33rem;
+    height: 40rem;
+  }
+
+  .login-area .left-side .subtitle {
+    width: 30rem;
+  }
+
+  .login-area .right-side {
+    height: 40rem;
+  }
+
+  .login-area .right-side .title {
+    margin-bottom: 1rem;
+  }
+
+  .login-area .left-side button {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 796px) {
+  #login-area {
+    padding: 8rem 0;
+  }
+
+  .login-area {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .login-area .left-side {
+    width: 46rem;
+    height: 38rem;
+  }
+  .login-area .right-side .title {
+    margin-bottom: 1rem;
+  }
+}
