@@ -63,9 +63,9 @@
   .responsive ul li:nth-child(3):hover .dropdown {
     display: block;
     background-color: rgb(253, 253, 253);
-    width: 13rem;
-    height: 9rem;
-    padding: 1.5rem 1rem;
+    width: 15rem;
+    height: 10rem;
+    padding: 2rem 0;
     border-top: 5px solid #ff003c;
     position: absolute;
     top: 2rem;
@@ -84,25 +84,24 @@
   .responsive ul li:nth-child(4):hover .dropdown {
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 13rem;
-    height: 9rem;
-    padding: 1.5rem 1rem;
+    width: 15rem;
+    height: 10rem;
+    padding: 2rem 0;
     border-top: 5px solid #ff003c;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
   }
   
   .responsive ul li:nth-child(5):hover .dropdown {
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 13rem;
-    height: 23rem;
-    padding: 1.5rem 1rem;
+    width: 15rem;
+    height: 22rem;
+    padding: 1rem 0;
     border-top: 5px solid #ff003c;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
   }
-  
   
   .nav-right {
     display: flex;
@@ -164,10 +163,8 @@
     border-radius: 50%;
     position: relative;
     font-size: 1.6rem;
+    color: gray;
     padding: 1rem;
-    a{
-      color: gray;
-    }
   }
   
   .nav-right button {
@@ -227,100 +224,3 @@
       }
     }
   }
-
-
-
-  /* FOOTER */
-
-footer {
-  padding: 15rem 0;
-  font-family: poppins;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  gap: 5rem;
-}
-
-.footer .column {
-  width: 26rem;
-  padding: 0 2rem;
-}
-
-.footer p {
-  color: gray;
-  font-size: 1.6rem;
-  margin-top: 3rem;
-}
-
-.footer h3 {
-  font-size: 2rem;
-}
-
-.footer .list {
-  list-style: none;
-  font-size: 1.6rem;
-  color: gray;
-  padding: 1rem 0;
-}
-
-.footer .list li {
-  padding: 10px 0;
-}
-
-.copyrights {
-  color: gray;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center;
-  gap: 10rem;
-}
-
-.copyrights a {
-  text-decoration: none;
-}
-
-.copyrights .social-media {
-  color: #000000;
-  display: flex;
-  gap: 2rem;
-}
-
-@media only screen and (min-width: 796px) and (max-width: 1196px) {
-  .footer {
-    gap: 2rem;
-  }
-
-  .footer .column {
-    width: 24rem;
-    padding: 0 2rem;
-  }
-
-  .copyrights {
-    gap: 6rem;
-  }
-}
-
-@media only screen and (max-width: 796px) {
-  .footer {
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: start;
-  }
-
-  .footer .column {
-    width: 20rem;
-    padding: 0 2rem;
-  }
-
-  .copyrights {
-    justify-content: start;
-    gap: 3rem;
-    padding: 0 2rem;
-  }
-  .copyrights p {
-    width: 30rem;
-  }
-}
