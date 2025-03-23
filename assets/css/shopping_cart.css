@@ -62,10 +62,27 @@
 .main-section .second-line .right-side {
   display: flex;
   gap: 3rem;
+  align-items: center;
 }
 
 .main-section .second-line .right-side .quantity {
   display: flex;
+}
+
+.main-section .second-line .right-side .quantity .num {
+  border: 1px solid gray;
+  padding: 1.4rem 2rem;
+  align-self: center;
+}
+
+.main-section .second-line .right-side .quantity .plus-minus {
+  display: block;
+}
+
+.main-section .second-line .right-side .quantity .plus,
+.minus {
+  border: 1px solid gray;
+  padding: 0.2rem 1rem;
 }
 
 .main-section .buttons {

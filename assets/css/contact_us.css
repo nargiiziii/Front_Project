@@ -177,7 +177,8 @@
     padding-top: 1rem;
   }
   .gallery img {
-    width: 17rem;
+    width: 14rem;
+    height: 16rem;
   }
   footer {
     padding: 10rem 0;
