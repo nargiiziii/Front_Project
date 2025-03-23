@@ -853,7 +853,7 @@
     padding: 5rem 0;
   }
   .shop-method .col {
-    width: 50rem;
+    width: 45rem;
   }
 }
 
@@ -871,8 +871,10 @@
 }
 
 @media only screen and (min-width: 796px) and (max-width: 1196px) {
+ 
   .gallery img {
-    width: 17rem;
+    width: 14rem;
+    height: 16rem;
   }
 }
 
