@@ -45,6 +45,11 @@
   color: white;
 }
 
+.main-area .right-text button:hover {
+  background-color: #2ca3f8;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 776px) and (max-width: 1196px) {
   #main-area {
     min-height: 50rem;
@@ -583,6 +588,12 @@
   border: none;
   color: white;
 }
+
+.best-collection .first-col button:hover {
+  background-color: #2ca3f8;
+  cursor: pointer;
+  }
+  
 
 .best-collection .first-col img {
   padding-top: 13rem;
