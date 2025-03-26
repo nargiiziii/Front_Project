@@ -211,7 +211,7 @@ cursor: pointer;
   }
 }
 
-@media only screen and (max-width: 996px) {
+@media only screen and (min-width:576px) and (max-width: 996px) {
   .responsive {
     display: none;
   }
@@ -239,9 +239,80 @@ cursor: pointer;
     height: 5rem;
     background-color: #4C4C4C;
     position: absolute;
-    top: 0;
+    top: 1;
     right: 1rem;
     padding: 1rem;
+    position: fixed;
+    z-index: 7;
+  }
+
+  .burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.645);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+
+    p {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-family: "poppins";
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .responsive {
+    display: none;
+  }
+
+  #navbar {
+    position: relative;
+    width: 40rem;
+  }
+
+  .nav-area {
+    width: 100%;
+    padding: 0 ;
+    justify-content:center;
+    align-items: center;
+    gap: 10rem;
+  }
+  
+
+  .cart-icon-responsive {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: relative;
+    font-size: 1.6rem;
+    padding: 1rem;
+    a {
+      color: gray;
+    }
+  }
+
+  .back {
+    width: 35rem;
+    height: 5rem;
+    background-color: #4C4C4C;
+    position: absolute;
+    top: 1;
+    right: 6rem;
+    padding: 2rem;
+    position: fixed;
+    z-index: 7;
   }
 
   .burger {
@@ -350,7 +421,7 @@ cursor: pointer;
   }
 }
 
-@media only screen and (max-width: 796px) {
+@media only screen and (min-width:576px) and (max-width: 796px) {
   .footer {
     gap: 2rem;
     flex-wrap: wrap;
@@ -372,6 +443,34 @@ cursor: pointer;
   }
 }
 
+@media only screen and (max-width: 576px) {
+ footer {
+  padding: 6rem 0;
+ }
+  .footer {
+    width: 45rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .footer .column {
+    width: 20rem;
+    padding: 0 2rem;
+  }
+
+  .copyrights {
+    width: 45rem;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+  .copyrights p {
+    width: 30rem;
+  }
+
+}
+
 .left-bottom {
   border-radius: 50%;
   background-color: #2577fd;
@@ -385,3 +484,5 @@ cursor: pointer;
     color: white;
   }
 }
+
+

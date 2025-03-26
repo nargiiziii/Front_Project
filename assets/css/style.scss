@@ -70,7 +70,7 @@
   }
 }
 
-@media only screen and (max-width: 776px) {
+@media only screen and (min-width: 576px) and (max-width: 776px) {
   .main-area .left-img img {
     display: none;
   }
@@ -92,6 +92,32 @@
   .main-area h1 {
     font-size: 4rem;
   }
+}
+
+@media only screen and (max-width: 576px){
+  .main-area .left-img img {
+    display: none;
+  }
+
+  #main-area {
+    width: 45rem;
+    min-height: 35rem;
+    background-color: #c8ebff;
+  }
+
+  .main-area .left-img img {
+    width: 48rem;
+    height: 50rem;
+  }
+
+  .main-area .right-text {
+    width: 30rem;
+  }
+
+  .main-area h1 {
+    font-size: 3rem;
+  }
+
 }
 
 // Shop by Category
@@ -234,7 +260,7 @@
   }
 }
 
-@media only screen and (max-width: 776px) {
+@media only screen and (min-width: 576px) and (max-width: 776px) {
   #shop {
     min-height: 110rem;
     padding: 8rem 4.5rem 8rem;
@@ -243,6 +269,25 @@
   .shop h2 {
     font-size: 3rem;
     padding-bottom: 4rem;
+  }
+}
+
+
+@media only screen and (max-width: 576px){
+
+  #shop {
+    width: 45rem;
+    min-height: 110rem;
+    padding: 8rem 4.5rem 8rem;
+  }
+
+  .shop h2 {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+  }
+  .shop .images img {
+    width: 40rem;
+    height: 24rem;
   }
 }
 
@@ -412,7 +457,37 @@
   }
 }
 
-@media only screen and (max-width: 776px) {
+@media only screen and (min-width:576px) and (max-width: 776px) {
+  .latest .latest-head {
+    display: block;
+    text-align: center;
+  }
+
+  .latest .latest-head .list {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.6rem;
+    font-family: poppins;
+    color: gray;
+  }
+
+  .latest .latest-head h2 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .cards {
+    gap: 0rem;
+    padding: 5rem 0;
+  }
+}
+
+@media only screen and (max-width: 576px){
+ #latest{
+  width: 45rem;
+ }
+
   .latest .latest-head {
     display: block;
     text-align: center;
@@ -521,6 +596,10 @@
 }
 
 @media only screen and (max-width: 576px) {
+  #best-product {
+    width: 45rem;
+  }
+  
   .best-product {
     height: 33rem;
     margin: 0 2rem 2rem;
@@ -548,6 +627,7 @@
     display: none;
   }
 }
+
 
 // Best Collection of This Month
 
@@ -686,7 +766,7 @@
   }
 }
 
-@media only screen and (max-width: 796px) {
+@media only screen and (min-width:576px) and (max-width: 796px) {
   #best-collection {
     height: 75rem;
   }
@@ -717,6 +797,41 @@
     width: 100%;
     padding: 0 2rem;
   }
+}
+
+@media only screen and (max-width: 576px){
+  #best-collection {
+    height: 80rem;
+    width: 45rem;
+  }
+
+  .best-collection .first-col .title {
+    font-size: 3.3rem;
+  }
+  .best-collection .first-col {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0;
+  }
+
+  .best-collection {
+    padding: 7rem 0;
+    display: block;
+  }
+
+  .best-collection .second-col img {
+    display: none;
+  }
+
+  .best-collection .first-col img {
+    display: none;
+  }
+
+  .best-collection .third-col {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
 }
 
 // Get Our Latest Offers News
@@ -792,7 +907,7 @@
   }
 }
 
-@media only screen and (max-width: 796px) {
+@media only screen and (min-width:576px) and (max-width: 796px) {
   .latest-news {
     flex-direction: column;
     gap: 2rem;
@@ -811,6 +926,30 @@
     left: 27.5rem;
   }
 }
+
+@media only screen and (max-width: 576px) {
+ #latest-news {
+  width: 40rem;
+ }
+  .latest-news {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .latest-news .left-side .title {
+    font-size: 2.7rem;
+  }
+
+  .latest-news .right-side input {
+    width: 35rem;
+  }
+
+  .latest-news .right-side button {
+    padding: 18px 29px;
+    left: 22rem;
+  }
+}
+
 
 // shop method area
 
@@ -889,13 +1028,25 @@
   }
 }
 
-@media only screen and (max-width: 796px) {
+@media only screen and (min-widht:576px) and (max-width: 796px) {
   .gallery {
     flex-wrap: wrap;
   }
 
   .gallery img {
     width: 18rem;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .gallery {
+    flex-wrap: wrap;
+    width: 45rem;
+  }
+
+  .gallery img {
+    width: 13rem;
   }
 }
 
